@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        a { text-decoration: none;
+            color: grey;
+         }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img class = "background" src="../assets/background.avif"></img>
+        <div class="image-container">
+            <a href="projects/capstone.html"><img class = "project" src="../assets/CapstonePicture.png" alt="project"></a>
+            <div class = "overlay">
+                <div class = "text">Capstone Project</div>
+            </div>
+        </div>
+        <div class="image-container3">
+            <a href="projects/pacman/index.html"><img class = "project2" src="../assets/PacmanPicture.png" alt="project 2"></a>
+            <div class = "overlay">
+                <div class = "text">Pacman Course Project</div>
+            </div>
+        </div>
+        <div class="image-container2">
+            <a href="projects/esletic.html"><img class = "project3" src="../assets/elseticcProject.png" alt="project 3"></a>
+            <div class = "overlay">
+                <div class = "text">Elsetic Software Engineer Internship</div>
+            </div>
+        </div>
+        <div class="image-container4">
+            <a href="projects/datascience.html"><img class = "project4" src="../assets/DatascienceProject.png" alt="project 4"></a>
+            <div class = "overlay">
+                <div class = "text">Datascience Course Project</div>
+            </div>
+        </div>
+
+        <img hidden class = "project5" src="" alt="project 5">
+        <img hidden class = "project6" src="" alt="project 6">
+    </div>
+    <div class="right">
+        <div id="menu" onclick="toggleMenu()">
+            <div id="bar1"></div> 
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+        </div>
+        <div id="dropdown" class="dropdown-hide">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li><!-- Projects to display: Hawkeye Capstone Project, FCC Project, Elsetic Project, Pacman Project, DataScience Project,
+                241 project? -->
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="mailto:warrenwjj@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

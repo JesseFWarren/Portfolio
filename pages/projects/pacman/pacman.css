@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: black;
+    padding: 10px 20px;
+}
+#right{
+    position: absolute;
+    left: 800px;    
+    top: 100px;
+}
+.text {
+    position: absolute;
+    left: 53%;    
+    top: 21%;
+    color: white;
+}

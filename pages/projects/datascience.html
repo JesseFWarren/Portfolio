@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        a { text-decoration: none;
+            color: grey;
+         }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img class = "background" src="../../assets/background.avif"></img>
+        <img class = "imageDS" src="../../assets/decTree.JPG"></img>
+        <h1 class="DSintro">
+            Datascience Course Project
+        </h1>
+        <p class="DSp1"> This was for my final project in intro to datascience and the objective was to see if I could use data on existing popular songs to be able to predict traits of future successful songs, providing a competitive advantage to record labels.
+            I used a dataset which collected every song featured on the Billboard Hot 100 from 2000 to 2018. The author of the dataset then supplemented this data with musical information about each song, collected using Spotify’s API. The information from the Billboard Hot 100 indicated basic information such as the title of the song, the artist and the data it was first released as well as information about how well a song performed on the Billboard Hot 100, its highest and lowest position as well as how long the song remained on the billboard. The data from Spotify included some objective measures such as tempo, time-signature and key, as well as some more subjective measures such as danceability and liveliness.
+        </p>
+        <p class="DSp2">
+            4 different modeling techniques: decision tree, naive Bayes, logistic regression and K-nearest neighbor. However, none of the models were able to tell significant differences between songs that topped the Billboard Hot 100 and songs that just barely made it on. Even though the project did not identify any major correlations between the spotify API data and the songs performance, I still learned a lot working on this project and gained confidence in my datascience abilities.
+        </p>
+    </div>
+    <div class="right">
+        <div id="menu" onclick="toggleMenu()">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+        </div>
+        <div id="dropdown" class="dropdown-hide">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="mailto:warrenwjj@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

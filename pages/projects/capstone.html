@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        a { text-decoration: none;
+            color: grey;
+         }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img class = "background" src="../../assets/background.avif"></img>
+        <div  class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6iuetBuzLLI" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <h1 class = "intro">Capstone Project: Autonomus Vehicle Detection AI Software</h1>
+        <p class = "introText">Skillion HawkEye is a mounted bike camera that warns the bike rider of any approaching vehicles. It takes in the camera data of the surrounding environment and runs inference to determine a hazard level. Then, it communicates the information to the user via a mobile app running on a phone mounted to the handlebars. The goal of HawkEye is to create a product that protects bike riders from unseen hazards.
+        </p>
+        <p class = "p2"> Our teams goal for this project was to create a modified machine learning model with python and tensorflow that is faster in identifying vehicles and able estimate their trajectory and speed better than the company's existing model to provide a better indication of hazard. In addition, it will be better at locating vehicles far away, to provide a head start for the hazard prediction algorithm. It will also be able to detect cars in all light levels including low-light conditions.
+        </p>
+        <p class = p3>
+            In the first half of our project timeline we have succesfully created a faster, better performing model that works well in all light conditions as well as a collection of Python scripts for augmenting our image dataset and performing fine-tuned training and evaluation using the IoU algorithm. 
+        </p>
+    </div>
+    <div class="right">
+        <div id="menu" onclick="toggleMenu()">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+        </div>
+        <div id="dropdown" class="dropdown-hide">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="mailto:warrenwjj@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
