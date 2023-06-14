@@ -20,6 +20,7 @@ body {
     position: absolute;
     top: 35%;
     left: 5%;
+    font-size: 2vw;
 }
 
 .introText {
@@ -28,6 +29,7 @@ body {
     top: 41%;
     left: 5%;
     margin-right: 30%;
+    font-size: 1vw;
 }
 
 .introText2 {
@@ -36,6 +38,7 @@ body {
     top: 53%;
     left: 5%;
     margin-right: 30%;
+    font-size: 1vw;
 }
 
 .introText3 {
@@ -44,11 +47,12 @@ body {
     top: 63%;
     left: 5%;
     margin-right: 30%;
+    font-size: 1vw;
 }
 
 .photo {
     position: absolute;
-    width: 30%;
+    width: 22vw;
     height: auto;
     top: 30%;
     left: 76%;
@@ -57,14 +61,14 @@ body {
 }
 
 .background {
-    width: 100%;
+    width: 101.5%;
     position: relative;
-    top: 2.5px;
+    top: 2px;
 }
 
 .right {
     background: grey;
-    width: 25%;
+    width: 25vw;
     padding: 20px;
     position: relative;
     display: flex;
