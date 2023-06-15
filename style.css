@@ -144,17 +144,32 @@ body {
     .dropdown-hide {
         font-size: 4vw;
     }
+    .dropdown-show {
+        font-size: 5vw;
+    }
 
     .intro{
         top: 30vh;
+        font-size: 3vw;
     }
     .introText{
         top: 32vh;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .introText2{
-        top: 37vh;
+        top: 54vh;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .introText3{
-        top: 42vh;
+        top: 74vh;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+
+    .photo {
+        top: 12vh;
+        left: 2.5vw;
     }
   }
