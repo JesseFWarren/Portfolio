@@ -138,8 +138,11 @@ body {
     .background{
         display: none;
     }
+    #menu{
+        left: 18vw;
+    }
     #menu div {
-      width: 5vw; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 5vw; /* The width is 100%, when the viewport is 800px or smaller */
     }
     .dropdown-hide {
         font-size: 4vw;
@@ -171,5 +174,8 @@ body {
     .photo {
         top: 12vh;
         left: 2.5vw;
+    }
+    .right{
+        padding: 0px;
     }
   }
