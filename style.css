@@ -2,14 +2,14 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow-x: hidden;
 }
 
 .left {
     background: white;
-    width: 75%;
+    width: 75vw;
     height: 100%;
     padding: 0px;
     position: relative;
@@ -61,7 +61,7 @@ body {
 }
 
 .background {
-    width: 101.5%;
+    width: 100%;
     position: relative;
     top: 2px;
 }
@@ -78,7 +78,7 @@ body {
 
 #menu {
     position: relative;
-    width: 2vw;
+    width: 100%;
     margin-bottom: 10px;
     left: 85%;
     cursor: pointer;
@@ -86,7 +86,7 @@ body {
 }
 
 #menu div {
-    width: 100%;
+    width: 2vw;;
     height: 5px;
     background-color: black;
     margin: 6px 0;
@@ -133,3 +133,29 @@ body {
     list-style-type: none;
     padding: 0;
 }
+
+@media screen and (max-width: 800px) {
+    .background{
+        display: none;
+    }
+    #menu div {
+      width: 5vw; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    .intro{
+        top: 30vh;
+    }
+    .introText{
+        top: 32vh;
+    }
+    .introText2{
+        top: 37vh;
+    }
+    .introText3{
+        top: 42vh;
+    }
+
+    .dropdown-hide {
+        font-size: 4vw;
+    }
+  }
