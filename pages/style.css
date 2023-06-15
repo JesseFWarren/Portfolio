@@ -447,42 +447,67 @@ body {
     }
     .intro{
         top: 31vh;left: 7vw;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .introText{
-        top: 32vh;left: 7vw;
+        top: 35vh;left: 7vw;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .p2{
-        top: 36vh;left: 7vw;
+        top: 60vh;left: 7vw;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .p3{
-        top: 40vh;left: 7vw;
+        top: 90vh;left: 7vw;
+        font-size: 3vw;
+        margin-right: 5px;
     }
 
     .introElsetic{
         top: 18vh;left: 20vw;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .introTextElsetic{
-        top: 20vh;left: 20vw;
+        top: 22vh;left: 20vw;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .ElseticP2{
-        top: 24vh;left: 20vw;
+        top: 42vh;left: 20vw;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .ElseticP3{
-        top: 28vh;left: 20vw;
+        top: 64vh;left: 20vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+    .App {
+        top: 20%;
     }
 
     .imageDS{
         width:60vw;
         height: auto;
         left: 2vh;
+        top: 95vh;
     }
     .DSintro{
-        top: 30vh;
+        top: 5vh;
+        font-size: 3vw;
     }
     .DSp1{
-        top: 32vh;
+        top: 7vh;
+        font-size: 3vw;
+        margin-right: 5px;
     }
     .DSp2{
-        top: 42vh;
+        top: 62vh;
+        font-size: 3vw;
+        margin-right: 5px;
     }
 }
