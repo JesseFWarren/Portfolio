@@ -14,3 +14,10 @@ body{
     top: 21%;
     color: white;
 }
+
+@media screen and (max-width: 800px) {
+    .text{
+        left: 10%;
+        top: 80%;
+    }
+}
