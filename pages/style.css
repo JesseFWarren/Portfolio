@@ -53,6 +53,14 @@ body {
     left: 25%;
 }
 
+.fcc{
+    position: absolute;
+    top: 8%;
+    left: 22%;
+    width: 50%;
+    height: auto;
+}
+
 .left {
     background: white;
     width: 75%;
@@ -88,6 +96,38 @@ body {
     font-family: 'Lato', sans-serif;
     position: absolute;
     top: 85%;
+    left: 5%;
+    margin-right: 75px;
+    font-size: 1vw;
+}
+
+.FCCintro {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-size: 1vw;
+}
+.FCCintroText {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 59%;
+    left: 5%;
+    margin-right: 75px;
+    font-size: 1vw;
+}
+.FCCp2{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 63%;
+    left: 5%;
+    margin-right: 75px;
+    font-size: 1vw;
+}
+.FCCp3 {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 82%;
     left: 5%;
     margin-right: 75px;
     font-size: 1vw;
@@ -298,15 +338,50 @@ body {
     text-align: center;
 }
 
-.project5 {
+.image-container5 {
     position: absolute;
-    width: 250px;
-    height: 250px;
     top: 55%;
     left: 38%;
     z-index: 2;
+}
+
+.image-container5 img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
     border: 5px solid black;
 }
+
+.image-container5 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #808080;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.image-container5:hover .overlay {
+    height: 50%;
+}
+
+.image-container5 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
 
 .project6 {
     position: absolute;
@@ -461,6 +536,27 @@ body {
         margin-right: 5px;
     }
     .p3{
+        top: 90vh;left: 7vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+
+    .FCCintro{
+        top: 31vh;left: 7vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+    .FCCintroText{
+        top: 35vh;left: 7vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+    .FCCp2{
+        top: 60vh;left: 7vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+    .FCCp3{
         top: 90vh;left: 7vw;
         font-size: 3vw;
         margin-right: 5px;
