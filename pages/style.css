@@ -21,6 +21,7 @@ body {
     top: 35%;
     left: 30%;
     font-size: 1vw;
+    color: white;
 }
 .introTextElsetic {
     font-family: 'Roboto', sans-serif;
@@ -29,6 +30,7 @@ body {
     left: 30%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
 }
 .ElseticP2 {
     font-family: 'Roboto', sans-serif;
@@ -37,6 +39,7 @@ body {
     left: 30%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
 }
 .ElseticP3 {
     font-family: 'Roboto', sans-serif;
@@ -45,6 +48,51 @@ body {
     left: 30%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
+}
+
+.Vis {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    width: 22%;
+    height: auto;
+}
+
+.introCV {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-size: 1vw;
+    color: white;
+}
+.introTextCV {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+    margin-right: 75px;
+    font-size: 1vw;
+    color: white;
+}
+.CVP2 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 49%;
+    left: 30%;
+    margin-right: 75px;
+    font-size: 1vw;
+    color: white;
+}
+.CVP3 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 62%;
+    left: 30%;
+    margin-right: 75px;
+    font-size: 1vw;
+    color: white;
 }
 
 .video {
@@ -62,7 +110,7 @@ body {
 }
 
 .left {
-    background: white;
+    background: rgb(0, 0, 0);
     width: 75%;
     height: 100%;
     padding: 0px;
@@ -75,6 +123,7 @@ body {
     top: 55%;
     left: 5%;
     font-size: 1vw;
+    color: white;
 }
 .introText {
     font-family: 'Lato', sans-serif;
@@ -83,6 +132,7 @@ body {
     left: 5%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
 }
 .p2{
     font-family: 'Lato', sans-serif;
@@ -91,6 +141,7 @@ body {
     left: 5%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
 }
 .p3 {
     font-family: 'Lato', sans-serif;
@@ -99,6 +150,7 @@ body {
     left: 5%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
 }
 
 .FCCintro {
@@ -107,6 +159,7 @@ body {
     top: 55%;
     left: 5%;
     font-size: 1vw;
+    color: white;
 }
 .FCCintroText {
     font-family: 'Lato', sans-serif;
@@ -115,6 +168,7 @@ body {
     left: 5%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
 }
 .FCCp2{
     font-family: 'Lato', sans-serif;
@@ -123,6 +177,7 @@ body {
     left: 5%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
 }
 .FCCp3 {
     font-family: 'Lato', sans-serif;
@@ -131,11 +186,12 @@ body {
     left: 5%;
     margin-right: 75px;
     font-size: 1vw;
+    color: white;
 }
 
 .imageDS {
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 18%;
     width: 700px;
     height: auto;
@@ -146,29 +202,27 @@ body {
     top: 5%;
     left: 10%;
     font-size: 1vw;
+    color: white;
 }
 .DSp1 {
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    top: 12%;
+    top: 10%;
     left: 10%;
     margin-right: 100px;
     font-size: 1vw;
+    color: white;
 }
 .DSp2 {
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    top: 35%;
+    top: 33%;
     left: 10%;
     margin-right: 100px;
     font-size: 1vw;
+    color: white;
 }
 
-.background {
-    width: 100%;
-    position: relative;
-    top: 2.5px;
-}
 .image-container {
     position: absolute;
     top: 10%;
@@ -180,7 +234,7 @@ body {
     width: 58%;
     height: 150px;
     padding: 50px;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 .image-container .overlay {
     position: absolute;
@@ -221,7 +275,7 @@ body {
     position: relative;
     width: 250px;
     height: 250px;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .image-container2 .overlay {
@@ -264,7 +318,7 @@ body {
     width: 76%;
     height: 200px;
     padding: 25px;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .image-container3 .overlay {
@@ -307,7 +361,7 @@ body {
     width: 200px;
     height: 200px;
     padding: 25px;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .image-container4 .overlay {
@@ -350,7 +404,7 @@ body {
     width: 200px;
     height: 200px;
     padding: 25px;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .image-container5 .overlay {
@@ -382,15 +436,47 @@ body {
 }
 
 
-
-.project6 {
+.image-container6 {
     position: absolute;
-    width: 250px;
-    height: 250px;
     top: 55%;
     left: 71%;
     z-index: 2;
-    border: 5px solid black;
+}
+
+.image-container6 img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    border: 5px solid white;
+}
+
+.image-container6 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #808080;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.image-container6:hover .overlay {
+    height: 50%;
+}
+
+.image-container6 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .right {
@@ -585,6 +671,31 @@ body {
     .App {
         top: 20%;
     }
+
+    .introCV{
+        top: 18vh;left: 20vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+    .introTextCV{
+        top: 22vh;left: 20vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+    .CVP2{
+        top: 39vh;left: 20vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+    .CVP3{
+        top: 64vh;left: 20vw;
+        font-size: 3vw;
+        margin-right: 5px;
+    }
+    .Vis {
+        top: 20%;
+    }
+
 
    .imageDS{
         width:60vw;
